@@ -39,7 +39,7 @@ const Anicircle= Animated.createAnimatedComponent(Circle)
   // }))
   return (
 
-<View className='bg-red-100 h-screen flex items-center '>
+<View className='bg-red-500 h-screen flex items-center '>
 
 <View  className=" mx-auto my-2 w-[90%] h-[50%] flex justify-start items-center ">
  <Animated.View style={[animatedStyles,{backgroundColor:"black" , height:60 , width:60 ,borderRadius:10 }]} />

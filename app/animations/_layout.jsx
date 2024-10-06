@@ -5,9 +5,9 @@ import { Slot, Stack } from 'expo-router'
 export default function _layout() {
   return (
 <SafeAreaView style={{flex:1 }}>
-<Stack>
-  <Stack.Screen name='repeat'></Stack.Screen>
-  <Stack.Screen name='anim1'></Stack.Screen>
+<Stack screenOptions={{headerShown:false}}>
+  <Stack.Screen name='Camera'></Stack.Screen>
+  <Stack.Screen name='InterPolation'></Stack.Screen>
   <Stack.Screen name='timing'></Stack.Screen>
 
 
